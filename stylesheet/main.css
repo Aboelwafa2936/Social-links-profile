@@ -47,14 +47,14 @@ main {
     width: 100%;
     background-color: var(--Grey-800);
     border-radius: 12px;
-    padding: 20px;
+    padding: 30px;
     margin: 20px 0px;
     .card-header {
       img {
         width: 80px;
         height: 80px;
         border-radius: 50%;
-        margin: auto;
+        margin: 30px auto;
       }
     }
     .card-body {
@@ -81,7 +81,7 @@ main {
           background-color: var(--Grey-700);
           padding: 10px 30px;
           border-radius: 8px;
-          margin: 10px 0px;
+          margin: 20px 0px;
           transition: all 0.3s ease-in;
           &:hover{
             background-color: var(--Green);
