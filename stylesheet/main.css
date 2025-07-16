@@ -82,6 +82,14 @@ main {
           padding: 10px 30px;
           border-radius: 8px;
           margin: 10px 0px;
+          transition: all 0.3s ease-in;
+          &:hover{
+            background-color: var(--Green);
+            cursor: pointer;
+            a{
+                color: var(--Grey-900);
+            }
+          }
         }
       }
     }
